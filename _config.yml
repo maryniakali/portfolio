@@ -2,8 +2,8 @@
 title: PHOTORAMA
 email: ""
 description: "Photo Journal"
-url: "https://sunbliss.github.io"
-baseurl: "/photorama"
+url: "https://maryniakali.github.io"
+baseurl: "/portfolio"
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -33,9 +33,8 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - GALLERY: "gallery/"  
+  - ABOUT: "about/"
 
 # All translation keys
 translations:
@@ -50,7 +49,6 @@ port:             	 4000
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: pretty
 paginate: 5
 paginate_path: "/journal/page:num/"
 permalink: "/journal/:title/"
